@@ -1,0 +1,26 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h1>New person creation</h1>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="form-group">
+					<label>First name:</label>
+					<input type="text" class="form-control" maxlength="150" ng-model="newController.firstName">
+				</div>
+				<div class="form-group">
+					<label>Last name:</label>
+					<input type="text" class="form-control" maxlength="150" ng-model="newController.lastName">
+				</div>
+				<div class="form-group">
+					<label>Contact number:</label>
+					<input type="text" class="form-control" maxlength="30" ng-model="newController.contactNumber">
+				</div>
+				<div class="form-group">
+					<button type="button" class="btn btn-info" ng-click="newController.createPerson();">Submit</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
